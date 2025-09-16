@@ -66,7 +66,7 @@ Python 3.9+ is recommended.
 
 The PPO agent is implemented with the following components:
 1. **Policy Network** (Actor)
-  - Outputs a stochastic Gaussian policy for continuous action spaces.
+  	- Outputs a stochastic Gaussian policy for continuous action spaces.
 	- Optimized using the PPO clipped surrogate objective with entropy regularization.
 2.	**Value Network** (Critic)
 	- Estimates the state-value function.
