@@ -77,3 +77,15 @@ The PPO agent is implemented with the following components:
 4.	**Environment**
 	- Implemented using MuJoCo.
 	- Includes a custom Hopper environment for experimentation.
+
+## Structure
+```
+.
+├── Agent.py          # PPO agent definition
+├── Buffer.py         # Replay buffer or trajectory storage
+├── Networks.py       # Actor and critic neural networks
+├── custom_hopper.py  # Custom MuJoCo Hopper environment
+├── mujoco_env.py     # Environment management and setup
+├── main.py           # Main script for training
+└── requirements.txt  # Project dependencies
+```
